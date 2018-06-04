@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<html>
+<!doctype html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SMu</title>
@@ -9,15 +9,16 @@
 <link rel="stylesheet" href="/resources/css/jquery.mobile-1.4.5.css">
 <link rel="stylesheet" href="/resources/css/audioplayer.css">
 <link rel="stylesheet" href="/resources/css/font-awesome-4.2.0/css/font-awesome.min.css">
-<script src="/resources/js/jquery.js"></script>  
+<!-- <script src="/resources/js/jquery.js"></script>  -->
+<script src="/resources/js/jquery-2.2.1.min.js"></script>  
 <script src="/resources/js/jquery.mobile-1.4.5.js"></script>
 <script src="/resources/js/audioplayer.js"></script>
 <style>
-header, footer {background-color: #C07575!important; color: white!important}
+header, footer {background-color: #ffc3c3!important; color: white!important}
 footer {position: fixed!important; width: 100%; top: calc(100% - 80px); height: 80px}
 i{color: #c07575}
 .search {text-align: right; padding: 0.7em}
-.sub_title {background-color: #C07575; padding: 0.7em; color: white}
+.sub_title {background-color: #ffc3c3; padding: 0.7em; color: white}
 .btn_line {text-align: right}
 .music_list {padding: 2px} 
 .content > div:nth-child(even) {background-color: #c0777733}
@@ -56,7 +57,7 @@ $(document).ready(function(){
 </head>
 <body>
 <section id="page1" data-role="page">
-	<header data-role="header"><h1>SMu</h1></header>
+	<header data-role="header" style='text-align:center'><img src='/resources/img/logo_long.png' style='height:60px;'></header>
 	<div class='search'><i class='fa fa-search fa-lg'></i></div>
 	<div class='content'>
 		<div class='sub_title'> </div>

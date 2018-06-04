@@ -792,7 +792,6 @@ div.ui-controlgroup-label {
 label.ui-btn {
 	font-weight: bold;
 	border-width: 1px;
-	border-style: solid;
 }
 .ui-btn {
 	text-decoration: none !important;
@@ -921,7 +920,6 @@ html .ui-alt-icon .ui-radio-off:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
-	border-style: solid; 
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
@@ -948,7 +946,6 @@ html body .ui-group-theme-a .ui-bar-inherit {
 }
 .ui-bar-a {
 	border-width: 1px;
-	border-style: solid;
 }
 /* Page and overlay */
 .ui-overlay-a,
@@ -971,7 +968,6 @@ html .ui-panel-page-container-a {
 }
 .ui-body-a {
 	border-width: 1px;
-	border-style: solid;
 }
 /* Links */
 .ui-page-theme-a a,
@@ -1103,7 +1099,7 @@ html body .ui-group-theme-b .ui-bar-inherit {
 }
 .ui-bar-b {
 	border-width: 1px;
-	border-style: solid;
+	
 }
 /* Page and overlay */
 .ui-overlay-b,
@@ -1126,7 +1122,7 @@ html .ui-panel-page-container-b {
 }
 .ui-body-b {
 	border-width: 1px;
-	border-style: solid;
+	
 }
 /* Links */
 .ui-page-theme-b a,
@@ -1451,7 +1447,6 @@ div.ui-mobile-viewport {
 .ui-header,
 .ui-footer {
 	border-width: 1px 0;
-	border-style: solid;
 	position: relative;
 }
 .ui-header:empty,
@@ -2864,7 +2859,7 @@ li.ui-block-e {
 	border-right-width: 0;
 	border-top-width: 0;
 	border-bottom-width: 1px;
-	border-style: solid;
+	
 }
 .ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
 	border-left-width: 1px;
@@ -3106,7 +3101,7 @@ fieldset.ui-controlgroup {
 }
 .ui-popup.ui-body-inherit {
 	border-width: 1px;
-	border-style: solid;
+	
 }
 .ui-popup-hidden {
 	left: 0;
@@ -3289,7 +3284,7 @@ fieldset.ui-controlgroup {
 	width: 28.284271247px;
 	height: 28.284271247px;
 	border-width: 1px;
-	border-style: solid;
+	
 }
 .ui-popup-arrow-container.ui-popup-arrow-t .ui-popup-arrow {
 	left: -4.142135623px;
@@ -3581,7 +3576,7 @@ fieldset.ui-controlgroup {
 .ui-listview > .ui-li-divider,
 .ui-listview > li > a.ui-btn {
 	border-width: 1px 0 0 0;
-	border-style: solid;
+	
 }
 .ui-listview-inset > .ui-li-static,
 .ui-listview-inset > .ui-li-divider,
@@ -3682,7 +3677,7 @@ fieldset.ui-controlgroup {
 	font-weight: bold;
 	text-align: center;
 	border-width: 1px;
-	border-style: solid;
+	
 	padding: 0 .48em;
 	line-height: 1.6em;
 	min-height: 1.6em;
@@ -3856,7 +3851,7 @@ input.ui-slider-input {
 	height: 20px;
 	line-height: 20px;
 	border-width: 1px;
-	border-style: solid;
+	
 	outline: 0;
 	text-align: center;
 	vertical-align: text-bottom;
@@ -3876,7 +3871,7 @@ input.ui-slider-input {
 	position: relative;
 	overflow: visible;
 	border-width: 1px;
-	border-style: solid;
+	
 	height: 15px;
 	margin: 0 15px 0 68px;
 	top: 6px;
@@ -4076,7 +4071,7 @@ div.ui-rangeslider label {
 .ui-input-search {
 	margin: .5em 0;
 	border-width: 1px;
-	border-style: solid;
+	
 }
 .ui-mini {
 	margin: .446em;
@@ -4213,7 +4208,7 @@ textarea.ui-input-text.ui-textinput-autogrow {
 	width: 5.875em; /* Override this and padding-left in next rule if you use labels other than "on/off" and need more space */
 	height: 1.875em;
 	border-width: 1px;
-	border-style: solid;
+	
 	margin: .5em 0;
 	overflow: hidden;
 	-webkit-transition-property: padding, width, background-color, color, border-color;
@@ -4260,7 +4255,7 @@ textarea.ui-input-text.ui-textinput-autogrow {
 	text-indent: -2.6em; /* Override this to center text if you use a label other than "on" */
 	text-align: left;
 	border-width: 1px;
-	border-style: solid;
+	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
