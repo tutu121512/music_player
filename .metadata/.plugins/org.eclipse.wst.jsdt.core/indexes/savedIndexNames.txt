@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Project\music_player\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+979952955.index
+1073008474.index
+872297892.index
+894653187.index
+3420444452.index
+3691054673.index
+3693083176.index

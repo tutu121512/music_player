@@ -1,0 +1,105 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMu</title>
+
+<!-- common Import -->
+<link rel="stylesheet" href="/resources/js/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="/resources/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<script src="/resources/js/jquery.min.js"></script>
+<script src="/resources/js/jquery.mobile-1.4.5.js"></script>
+<style>
+header, footer {background-color: #C07575!important; color: white!important}
+i{color: #c07575}
+.search {text-align: right; padding: 0.7em}
+.sub_title {background-color: #C07575; padding: 0.7em; color: white}
+.btn_line {text-align: right}
+.music_list {padding: 5px}
+.content > div:nth-child(even) {background-color: #c0777733}
+.content > div:nth-child(2) {height: 100px}
+.music_list > table {width: 100%; font-size: 0.8em; border-spacing: 0px}
+.list_f > th:nth-child(1){width: 20px}
+.list_f > th:nth-child(2){width: 54px}
+.list_f > th:nth-child(3){text-align: left; padding-left:0.6em}
+.play_list > .list_f > th:nth-child(4){width: 30px; font-size: 0.6em}
+.play_list > .list_f > th:nth-child(5){width: 30px}
+.play_list > .list_f > th:nth-child(6){width: 30px}
+.play_list > .list_f > th:nth-child(7){width: 30px}
+.list_s > th:nth-child(1){text-align: left; padding-left:0.6em; font-size: 0.9em; color: #00000099} 
+.play_list > .list_s > th:nth-child(2){width: 30px}
+.play_count {background-color: #C07575}
+.now_play_list {color: white!important; text-shadow: none}
+.now_play_list i {color: white}
+.album_preview {height: 50px; width: 50px}
+.lyrics,.play_count {margin: 0; padding: 4px; font-size: 10px}
+</style>
+</head>
+<body>
+<section id="page1" data-role="page">
+	<header data-role="header"><h1>SMu</h1></header>
+	<div class='search'><i class='fa fa-search fa-lg'></i></div>
+	<div class='content'>
+		<div class='sub_title'>Popular Music</div>
+		<div class='music_list'>
+		</div>
+		<% 
+			for (int i=1; i<=10; i++) {
+		%>
+		<div class='music_list'>
+			<table class='play_list'>
+				<tbody><tr class='list_f'><th rowspan='2'> <i class='fa fa-star-o fa-lg'></i>
+				</th><th rowspan='2'> <img class='album_preview' src="/resources/img/<%=i %>.jpg">
+				</th><th> 내가 너의 곁에 잠시 살았다는 걸
+				</th><th rowspan='2'> 12.6 MB
+				</th><th rowspan='2'> <i class='fa fa-play-circle fa-2x'></i>
+				</th><th> <button class='lyrics'>가사</button>
+				</th><th rowspan='2'> <i class='fa fa-th-large fa-2x'></i>
+				</th></tr>
+				<tr class='list_s'><th> 토이 
+				</th><th> <button class='play_count'>25play</button>
+				</th></tr></tbody>
+			</table>
+		</div>
+		<% 
+			} 
+		%>
+	</div>
+	<footer data-role="footer">
+		<div class='music_list'>
+			<table class='now_play_list'>
+				<tbody><tr class='list_f'><th rowspan='2'> <i class='fa fa-star-o fa-lg'></i> 
+				</th><th rowspan='2'> <img class='album_preview' src="/resources/img/2.jpg">
+				</th><th> Touch my body
+				</th><th rowspan='2'> <i class='fa fa-backward fa-lg'></i>
+				</th><th rowspan='2'> <i class='fa fa-pause fa-lg'></i>
+				</th><th rowspan='2'> <i class='fa fa-forward fa-lg'></i>
+				</th></tr>
+				<tr class='list_s'><th> 시스타
+				</th></tr></tbody>
+			</table>
+		</div>
+	</footer>
+</section>
+ 
+<section id="page2" data-role="page">
+	<header data-role="header" data-add-back-btn="true"><h1>jQuery Mobile</h1></header>
+	<div class="content" data-role="content">
+		<p>2 page</p>
+		<p><a href="#page3">go page3</a></p>
+	</div>
+	<footer data-role="footer"><h1>cofs</h1></footer>
+</section>
+ 
+<section id="page3" data-role="page">
+	<header data-role="header" data-add-back-btn="true"><h1>jQuery Mobile</h1></header>
+	<div class="content" data-role="content">
+		<p>3 page</p>
+		<p><a href="#page1">go page1</a></p>
+	</div>
+	<footer data-role="footer"><h1>cofs</h1></footer>
+</section>
+
+</body>
+</html>

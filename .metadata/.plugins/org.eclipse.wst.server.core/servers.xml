@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/SmartMusicPlayer-config" deployDir="wtpwebapps" hostname="localhost" id="SmartMusicPlayer" name="SmartMusicPlayer" runtime-id="SmartMusicPlayer" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="SmartMusicPlayer::org.eclipse.jst.jee.server:SmartMusicPlayer::jst.web::2.5"/>
+  </server>
+</servers>

@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMu</title>
+
+<!-- common Import -->
+<link rel="stylesheet" href="/resources/js/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="/resources/css/font-awesome-4.2.0/css/font-awesome.min.css">
+<!-- <script src="/resources/js/jquery-3.2.1.min.js"></script> -->
+<script src="/resources/js/jquery.min.js"></script>
+<script src="/resources/js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<section id="page1" data-role="page">
+    <header data-role="header"><h1>jQuery Mobile</h1></header>                   
+    <div class="content" data-role="content">
+        <p>1 page</p>
+        <p><a href="#page2">go page2</a></p> 
+        <p><a href="externalPage.html" data-prefetch="true">go external page</a></p> 
+
+    </div>
+    <footer data-role="footer"><h1>cofs</h1></footer>
+</section>
+ 
+<section id="page2" data-role="page">
+    <header data-role="header" data-add-back-btn="true"><h1>jQuery Mobile</h1></header>
+    <div class="content" data-role="content">
+        <p>2 page</p>
+        <p><a href="#page3">go page3</a></p>
+    </div>
+    <footer data-role="footer"><h1>cofs</h1></footer>
+</section>
+ 
+<section id="page3" data-role="page">
+    <header data-role="header" data-add-back-btn="true"><h1>jQuery Mobile</h1></header>
+    <div class="content" data-role="content">
+        <p>3 page</p>
+        <p><a href="#page1">go page1</a></p>
+    </div>
+    <footer data-role="footer"><h1>cofs</h1></footer>
+</section>
+
+</body>
+</html>
