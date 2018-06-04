@@ -1,0 +1,8 @@
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+target/
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/com.kat/project/pom.properties
+.settings/org.eclipse.core.resources.prefs
